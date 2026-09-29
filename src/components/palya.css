@@ -1,0 +1,34 @@
+:root {
+    --meret:3;
+    --oldal:calc( 50vw / var(--meret) );
+}
+.palya {
+    display:grid;
+    width: calc(var(--meret) - var(--oldal));
+    grid-template-columns:repeat(var(--meret), var(--oldal)) ;
+    grid-template-rows: repeat(var(--meret), var(--oldal)); 
+    justify-content: center;
+    gap: 2px;
+}
+.elem {
+    border:1px solid gray;
+    border-radius:8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:5vw;
+    cursor:grab;
+}
+.aktiv:hover {
+    background-color:rgb(156, 224, 153);
+      border:3px solid rgb(37, 158, 30);
+}
+
+.inaktiv {
+    background-color:gainsboro;
+    color:rgb(159, 155, 155)
+}
+.aktiv {
+    background-color:rgb(201, 241, 199);
+   
+}
