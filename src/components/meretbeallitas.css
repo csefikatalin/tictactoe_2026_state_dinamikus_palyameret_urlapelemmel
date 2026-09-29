@@ -1,0 +1,17 @@
+.meretUrlap{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+     font-size: calc(12px + 1vw);
+}
+.meretUrlap input,.meretUrlap button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: calc(10px + 1vw);
+    width:50px;
+    text-align: center;
+
+}

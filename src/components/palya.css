@@ -8,10 +8,10 @@
     grid-template-columns:repeat(var(--meret), var(--oldal)) ;
     grid-template-rows: repeat(var(--meret), var(--oldal)); 
     justify-content: center;
-    gap: 2px;
+    
 }
 .elem {
-    border:1px solid gray;
+    border:0.5px solid rgb(124, 157, 122);;
     border-radius:8px;
     display:flex;
     align-items: center;

@@ -13,7 +13,7 @@ function App() {
   )
   const [lepes, setLepes] = useState(0)
   const [ertek, setErtek] = useState("X")
-  const listaHossz = lista.length
+
 
 
   useEffect(() => {
